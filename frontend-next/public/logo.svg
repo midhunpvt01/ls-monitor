@@ -1,0 +1,33 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="left" x1="20" y1="35" x2="60" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="main" x1="35" y1="20" x2="65" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="60%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="shadow" x1="65" y1="20" x2="85" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="92" height="92" rx="22" fill="url(#bg)" stroke="#f59e0b" stroke-width="2.5" stroke-opacity="0.4" />
+
+  <polygon points="18,75 42,35 66,75" fill="url(#left)" opacity="0.9" />
+  <polygon points="34,75 62,20 62,75" fill="url(#main)" />
+  <polygon points="62,20 86,75 62,75" fill="url(#shadow)" />
+
+  <path d="M 62 20 L 52 46 L 62 58 L 48 75" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="14" y1="75" x2="86" y2="75" stroke="#475569" stroke-width="2" stroke-linecap="round" />
+
+  <circle cx="62" cy="20" r="4.5" fill="#10b981" />
+  <circle cx="62" cy="20" r="8.5" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.75" />
+</svg>
